@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "man.h"
+
 /**
  * prinlint - prints a long integer
  * @arguments: input string
@@ -6,6 +7,7 @@
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
+
 int prinlint(va_list arguments, char *buf, unsigned int ibuf)
 {
 	long int int_input;

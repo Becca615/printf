@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * print_oct - prints decimal number in octal
  * @arguments: input number
@@ -6,6 +7,7 @@
  * @ibuf: index for buffer pointer
  * Return: number of chars printed.
  */
+
 int print_oct(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;

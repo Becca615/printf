@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * prinnhex - print number in hex begining with zero
  * @arguments: input string
@@ -6,6 +7,7 @@
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
+
 int prinnhex(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;

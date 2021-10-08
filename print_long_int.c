@@ -1,4 +1,4 @@
-#include "man.h"
+#include "main.h"
 
 /**
  * prinlint - prints a long integer
